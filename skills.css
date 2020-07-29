@@ -1,0 +1,77 @@
+.topic{
+		font-size: 3em;
+		text-decoration-line: underline;
+		text-align: center;
+		text-shadow: 3px 0px rgba( 177, 0, 0, 0.2 );
+         box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); 
+}
+.enav{
+display: flex;
+flex-direction: row;
+}
+nav.navbar.navbar-expand-lg.navbar-light.bg-light.shadow-5 {
+    padding-bottom: 0px;
+}
+a.navbar-brand.EBG {
+    font-size: 160%;
+}
+.othnav {
+    position: absolute;
+    right: 50px;
+}
+.skillset {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+.sbox{
+    width: 100%;
+    height: 50px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); 
+    cursor: pointer;
+ }
+.sbox:hover{
+    opacity: 0.6;
+    transition: opacity 0.25s ease-in;
+    cursor: pointer;
+}
+.stxt{
+    font-size: 2em;
+    padding:0 0 0 20px; 
+}
+.HTML{
+    width: 25%;
+    height: 100%;
+    background-color:red;  
+}
+.CSS{
+    width: 39%;
+    height: 100%;
+    background-color:blue;  
+}
+.JS{
+    width: 15%;
+    height: 100%;
+    background-color:green;  
+}
+.Pshop{
+    width: 15%;
+    height: 100%;
+    background-color:purple;  
+}
+.ILL{
+    width: 20%;
+    height: 100%;
+    background-color:teal;  
+}
+.react{
+     width: 10%;
+    height: 100%;
+    background-color:pink;
+}
+.skill:hover{
+    transform:scale(1.01);
+    transition: transform 1s ease-in;
+}

@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Portfolio</title>
+							<!-- CSS only -->
+			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+			<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
+			<link rel="stylesheet" type="text/css" href="portfolio.css">
+			<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
+	</head>
+<body>
+	<!-- NAVIGATIONS -->
+				<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-5">
+			  <div class="enav">
+			  	<div class="namenav">
+				  <a class="navbar-brand  EBG" href="Portfolio.html">ABHISHEK SHAH</a>
+				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				    <span class="navbar-toggler-icon"></span>
+				  </button>
+				</div>
+				<div class="othnav">
+				  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					    <ul class="navbar-nav mr-auto">
+					      <li class="nav-item active">
+					        <a class="nav-link " href="edu.html">EDUCATION <span class="sr-only">(current)</span></a>
+					      </li>
+					      <li class="nav-item">
+					        <a class="nav-link" href="skills.html">SKILLS</a>
+					      </li>
+					      <li class="nav-item dropdown">
+					        <a class="nav-link" href="projects.html">
+					          PROJECTS
+					        </a>
+					      </li>
+					    </ul>
+					</div>			
+				</div>
+		  </div>
+	</nav>
+
+	<div class="oth" >
+		<div class="colcard">
+			<div 	class="imges card">
+				<img src="dp.jpg">
+			</div>
+			<div 	class="name card">
+				<p style="overflow-y: scroll;">
+					HELLO,I'm ABHISHEK SHAH.
+					I am a student at IIT(ISM)DHANBAD pursing Bachelor of Technology in Mineral Engineering.I have recently developed this new passion for web development.
+
+				</p>
+			</div>			
+		</div>
+		<div class="colcard">
+			<div class="edu card" onclick="window.open('edu.html');">	
+				<div class="mainimg">
+					<img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
+					style="	height:400px; width:611px; ">
+				</div>
+				<div class="maintxt"
+				style="padding-top:21%;
+					padding-left: 22%;" >
+					Educations
+				</div>
+			</div>
+			<div class="skill card" onclick="window.open('skills.html','_blank');">	
+				<div class="mainimg">
+					<img src="https://images.unsplash.com/photo-1508317469940-e3de49ba902e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" style="	height: 250px; width:600px; ">
+				</div>
+				<div class="maintxt"
+				style="padding-top:11%;
+					padding-left: 36%; color: rgba(225,0,0,0.75);" >
+					Skills
+				</div>
+			</div>
+		</div>
+		<div class="colcard">
+			<div class="project card" onclick="window.open('projects.html','_blank');" >	
+				<div class="mainimg">
+				<img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" style="	height: 459px; width:500px; ">
+				</div>
+				<div class="maintxt"
+				style="padding-top:31%;		padding-left: 29%;" >
+					Projects
+				</div>
+			</div>
+			<div class="contact cards EBG" onmouseover="appear();" onmouseleave="disappear();">
+				<div class="maintxt"
+				style="padding-top:2%;
+					padding-left: 8%;" id='contxt' >
+					Contact
+				</div>
+				<div  id='disappear' >
+					<div class="sm3">
+					<div><button class="sm"><a href="https://www.linkedin.com/in/abhishek-shah-993019199/">LinkedIn</a></button></div>
+					<div><button class="sm"><a href="https://www.facebook.com/abhishek.shai.90/">Facebook</a></button></div>
+					<div><button class="sm"><a href="https://github.com/Gameholic0036" target="_blank">Github</a></button></div>
+					</div>
+					<div class="sm5"><div><button class="sm" onclick="copy(false);">Gmail</button><hr5 id='emails'>cpabhishekshah10@gmail.com</hr5></div>
+					<div><button class="sm" onclick="copy(true);">Phone no:-</button><hr5 id='no'>9905018700</hr5></div>	
+					</div>
+				</div> 
+			</div>
+		</div>	
+	</div>
+
+<!-- js -->
+		<!-- JS, Popper.js, and jQuery -->
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="portfolio.js"></script>
+	</body>
+</html>
