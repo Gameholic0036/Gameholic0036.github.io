@@ -1,24 +1,3 @@
-.topic{
-		font-size: 3em;
-		text-decoration-line: underline;
-		text-align: center;
-		text-shadow: 3px 0px rgba( 177, 0, 0, 0.2 );
-         box-shadow: 4px 4px 8px 0px rgba( 0, 0, 0, 0.2 ); 
-}
-.enav{
-display: flex;
-flex-direction: row;
-}
-nav.navbar.navbar-expand-lg.navbar-light.bg-light.shadow-5 {
-    padding-bottom: 0px;
-}
-a.navbar-brand.EBG {
-    font-size: 160%;
-}
-.othnav {
-    position: absolute;
-    right: 50px;
-}
 .skillset {
     display: flex;
     flex-direction: column;

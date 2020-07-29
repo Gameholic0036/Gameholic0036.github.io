@@ -79,6 +79,7 @@
 nav.navbar.navbar-expand-lg.navbar-light.bg-light.shadow-5 {
     padding-bottom: 0px;
     background-color: #FFF2CF;
+    z-index: 2
 }
 a.navbar-brand.EBG {
     font-size: 160%;

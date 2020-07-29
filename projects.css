@@ -1,22 +1,3 @@
-.EBG{
-	font-family: 'EB Garamond', serif;
-}
-.topic{
-		font-size: 3em;
-		text-decoration-line: underline;
-		text-align: center;
-		text-shadow: 3px 0px rgba( 177, 0, 0, 0.2 )
-}
-nav.navbar.navbar-expand-lg.navbar-light.bg-light.shadow-5 {
-    padding-bottom: 0px;
-}
-a.navbar-brand.EBG {
-    font-size: 160%;
-}
-.othnav {
-    position: absolute;
-    right: 50px;
-}
 .keypad {
     font-size: 2em;
 }
