@@ -1,0 +1,55 @@
+body ,.container{
+	background-color: #80B3DA;
+	color: black;
+	font-family: 'EB Garamond', serif;
+}
+p{
+	font-size: 2em;
+	text-align: center;
+}
+.carousel-item.active,
+.carousel-item-next,
+.carousel-item-prev{
+    display:block;
+}
+h1{
+	text-align: center;
+	font-size: 3em;
+	color: black;
+}
+.card{
+border: 2px solid black;
+}
+.aboutme{
+	background-color: #5894C2;
+}
+.skills{
+	background-color: #80B3DA;
+}
+.edu{
+	background-color: #206396;
+}
+.projects{
+	background-color: #3977A7;
+}
+
+.contact{
+	background-color:#5894C2;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}

@@ -3,105 +3,138 @@
 	<head>
 		<title>Portfolio</title>
 							<!-- CSS only -->
+			<meta name="viewport" content="width=device-width, initial-scale=1">
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 			<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 			<link rel="stylesheet" href="https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css"/>
-			<link rel="stylesheet" type="text/css" href="portfolio.css">
+			<link rel="stylesheet" type="text/css" href="index.css">
 			<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital@1&display=swap" rel="stylesheet">
 	</head>
 <body>
-	<!-- NAVIGATIONS -->
-				<nav class="navbar navbar-expand-lg navbar-light bg-light shadow-5">
-			  <div class="enav">
-			  	<div class="namenav">
-				  <a class="navbar-brand  EBG" href="index.html">ABHISHEK SHAH</a>
-				  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-				    <span class="navbar-toggler-icon"></span>
-				  </button>
-				</div>
-				<div class="othnav">
-				  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					    <ul class="navbar-nav mr-auto">
-					      <li class="nav-item active">
-					        <a class="nav-link " href="edu.html">EDUCATION <span class="sr-only">(current)</span></a>
-					      </li>
-					      <li class="nav-item">
-					        <a class="nav-link" href="skills.html">SKILLS</a>
-					      </li>
-					      <li class="nav-item dropdown">
-					        <a class="nav-link" href="projects.html">
-					          PROJECTS
-					        </a>
-					      </li>
-					    </ul>
-					</div>			
-				</div>
-		  </div>
-	</nav>
-
-	<div class="oth" >
-		<div class="colcard">
-			<div 	class="imges card">
-				<img src="dp.jpg">
-			</div>
-			<div 	class="name card">
-				<p style="overflow-y: scroll;">
+</div>
+	<div class="container" >
+		<div class="row card" style="height: 20%">
+			<div 	class="col-12 aboutme" style="overflow-y: scroll;">
+				<h1>AboutMe</h1>
+				<p>
 					HELLO,I'm ABHISHEK SHAH.
-					I am a student at IIT(ISM)DHANBAD pursing Bachelor of Technology in Mineral Engineering.I have recently developed this new passion for web development.
-
+					I am a student at IIT(ISM)DHANBAD pursing Bachelor of Technology in Mineral Engineering.I have recently developed this new passion for web development.I am into photography getting that one click just makes my day.<br><br>
 				</p>
+			<button class="w-25 align-middle">RESUME</button>
+			
+			</div>
+
+		</div>
+		<div class=" row" style="height: 40%x;">
+			<div class="edu col card" >	
+				<div class="maintxt col-6" >
+					<h1>Educations</h1>
+				</div>
+				<div class="col">
+					 <div id="carouselContent" class="carousel slide" data-ride="carousel">
+				        <div class="carousel-inner" role="listbox">
+				            <div class="carousel-item active text-center p-4">
+				                 <p>I am currently pursuing<br> 
+									Bachelor of Technology at Indian Institute of Technology (Indian School of Mines), Dhanbad.<br>I joined this institute in 2019.</p>
+				            </div>
+				            <div class="carousel-item text-center p-4">
+				                <p>Completed Higher secondary education from<br> Delhi Public School,Bokaro with a 87.40% in boards exams.<br>I joined this institue in 2016</p>
+				            </div>
+				            <div class="carousel-item text-center p-4">
+				                <p>Passed class 10th from De Nobili School,Sijua with 93.20%.</p>
+				            </div>
+				        </div>
+				        <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+				            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				            <span class="sr-only">Previous</span>
+				        </a>
+				        <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+				            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				            <span class="sr-only">Next</span>
+				        </a>
+				    </div>
+				</div>
 			</div>			
-		</div>
-		<div class="colcard">
-			<div class="edu card" onclick="window.open('edu.html');">	
-				<div class="mainimg">
-					<img src="https://images.unsplash.com/photo-1497633762265-9d179a990aa6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60"
-					style="	height:400px; width:611px; ">
-				</div>
-				<div class="maintxt"
-				style="padding-top:21%;
-					padding-left: 22%;" >
-					Educations
-				</div>
-			</div>
-			<div class="skill card" onclick="window.open('skills.html','_blank');">	
-				<div class="mainimg">
-					<img src="https://images.unsplash.com/photo-1508317469940-e3de49ba902e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80" style="	height: 250px; width:600px; ">
-				</div>
-				<div class="maintxt"
-				style="padding-top:11%;
-					padding-left: 36%; color: rgba(225,0,0,0.75);" >
-					Skills
-				</div>
-			</div>
-		</div>
-		<div class="colcard">
-			<div class="project card" onclick="window.open('projects.html','_blank');" >	
-				<div class="mainimg">
-				<img src="https://images.unsplash.com/photo-1501504905252-473c47e087f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=967&q=80" style="	height: 459px; width:500px; ">
-				</div>
-				<div class="maintxt"
-				style="padding-top:31%;		padding-left: 29%;" >
-					Projects
-				</div>
-			</div>
-			<div class="contact cards EBG" onmouseover="appear();" onmouseleave="disappear();">
-				<div class="maintxt"
-				style="padding-top:2%;
-					padding-left: 8%;" id='contxt' >
-					Contact
-				</div>
-				<div  id='disappear' >
-					<div class="sm3">
-					<div><button class="sm"><a href="https://www.linkedin.com/in/abhishek-shah-993019199/">LinkedIn</a></button></div>
-					<div><button class="sm"><a href="https://www.facebook.com/abhishek.shai.90/">Facebook</a></button></div>
-					<div><button class="sm"><a href="https://github.com/Gameholic0036" target="_blank">Github</a></button></div>
+
+
+			<div class="skills col-6 card"><h1>Skills</h1>
+					<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+					  <ol class="carousel-indicators">
+					    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+					    <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
+					  </ol>
+					  <div class="carousel-inner">
+					    <div class="carousel-item active">
+					      <img class="d-block w-50" src="data:image/png;base64,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" alt="HTML">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-75 align-middle" src="https://coryrylan.com/assets/images/posts/types/css.svg" alt="CSS">
+					    </div>
+					    <div class="carousel-item">
+					      <img class="d-block w-75" src="data:image/png;base64,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" alt="JS">
+					    </div>
+					     <div class="carousel-item">
+					      <img class="d-block w-75" src="https://www.iphonehacks.com/wp-content/uploads/2019/11/photoshop-cc.jpg" alt="photoshop-cc">
+					    </div>
+					     <div class="carousel-item">
+					      <img class="d-block w-75" src="https://i0.wp.com/mactorrents.io/wp-content/uploads/2019/11/Adobe-Illustrator-2020-v24.0.0.332.png?fit=490%2C478&ssl=1" alt="illustrator">
+					    </div>
+					  </div>
+					  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+					    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Previous</span>
+					  </a>
+					  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+					    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+					    <span class="sr-only">Next</span>
+					  </a>
 					</div>
-					<div class="sm5"><div><button class="sm" onclick="copy(false);">Gmail:-<hr5 id='emails'>cpabhishekshah10@gmail.com</hr5></button></div>
-					<div><button class="sm" onclick="copy(true);">Phone no:-<hr5 id='no'>9905018700</hr5></button></div>	
+			</div>					
+		</div>
+		<div class="row projects card" style="height: 40%;" >	
+				<div class="maintxt" >
+					<h1>Projects</h1>
+				</div>
+				<div class="">
+					 <div id="carouselContent" class="carousel slide" data-ride="carousel">
+				        <div class="carousel-inner" role="listbox">
+				            <div class="carousel-item active text-center p-4">
+				                <p>Keypad Door Unlocking is a project based on ardino uno.
+								It uses keypad to enter accept the correct password and allows you by opening the door,but if the password is entered and it turns to be wrong for three consecutive times then the user has to wait for a minute to enter the password again.The password can be a combination of 16 characters.<br>Link of the project uploaded on github :-<a href="https://github.com/Gameholic0036/KeypadDoorUnlocking" target="_blank" style="color: red;">Keypad Door KeypadDoorUnlocking</a></p>
+				            </div>
+				            <div class="carousel-item text-center p-4">
+				               	<p>Roboto is a React based app which provides the user an way to search a robot by its name,emailid from a pack of robots.The idea create a serch field and learn a bit about react.The data of robots has to be stored in form of file,but can be changed by changing the file.<br>Link of the project uploaded on github :-<a href="https://github.com/Gameholic0036/roboto" target="_blank" style="color: red;">Roboto</a> </p>
+				            </div>
+				        </div>
+				        <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+				            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				            <span class="sr-only">Previous</span>
+				        </a>
+				        <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+				            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				            <span class="sr-only">Next</span>
+				        </a>
+				    </div>
+				</div>
+		</div>
+		<div class=" row contact card" style="height: 20%;">
+				<div class="col-7">	
+					<div class=" row justify-content-between">
+						<div class="col"><a href="https://www.linkedin.com/in/abhishek-shah-993019199/" class="fa fa-linkedin"></a></div>
+						<div class="col"><a href="https://www.facebook.com/abhishek.shai.90/" class="fa fa-facebook h-75"></a></div>
+						<div class="col"><i class="fa fa-github" href="https://github.com/Gameholic0036" target="_blank" style="font-size:36px"></i></div>
 					</div>
-				</div> 
-			</div>
-		</div>	
+				</div>
+				<div class="col-5">
+					<div class="row d-flex justify-content-end">	
+						<div class="col"><button class="" onclick="copy(false);">Gmail:-<hr5 id='emails'>cpabhishekshah10@gmail.com</hr5></button></div>
+						<div class="col"><button class="" onclick="copy(true);">Phone no:-<hr5 id='no'>9905018700</hr5></button></div>	
+					</div>
+				</div>
+		</div> 
 	</div>
 
 <!-- js -->
