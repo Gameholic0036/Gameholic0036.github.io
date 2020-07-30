@@ -57,7 +57,8 @@ border: 2px solid black;
   background: #125688;
   color: white;
 }
-img {
-text-align: center;
-
-} 
+a{
+	text-decoration: underline;
+	font-style: oblique;
+	color:white;
+}
