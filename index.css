@@ -16,6 +16,7 @@ h1{
 	text-align: center;
 	font-size: 3em;
 	color: black;
+	text-decoration: underline;
 }
 .card{
 border: 2px solid black;
@@ -37,14 +38,13 @@ border: 2px solid black;
 	background-color:#5894C2;
 }
 .fa {
-  padding: 20px;
+  padding: 10px;
   font-size: 30px;
   width: 50px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  border-radius: 25%;
 }
-
 .fa:hover {
     opacity: 0.7;
 }
@@ -53,3 +53,8 @@ border: 2px solid black;
   background: #3B5998;
   color: white;
 }
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
