@@ -1,5 +1,5 @@
 body ,.container{
-	background-color: #80B3DA;
+	background-color:#5894C2;
 	color: black;
 	font-family: 'EB Garamond', serif;
 }
@@ -22,7 +22,7 @@ h1{
 border: 2px solid black;
 }
 .aboutme{
-	background-color: #5894C2;
+	background-color:#80B3DA;
 }
 .skills{
 	background-color: #80B3DA;
@@ -35,7 +35,7 @@ border: 2px solid black;
 }
 
 .contact{
-	background-color:#5894C2;
+	background-color: #80B3DA;
 }
 .fa {
   padding: 10px;
